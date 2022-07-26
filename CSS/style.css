@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:100%;
+    font-size: 16px;
+    line-height:1.5;
+    background: #120d0d;
+}
+/*Navbar Styling*/
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    transition:0.5s;
+    padding: 40px 100px;
+    z-index: 100000;
+    background-color: black;
+}
+header ul{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+header ul li{
+    position:relative;
+    list-style: none;
+}
+header ul li a{
+    position:relative;
+    margin:0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.5s;
+}
+/*Container Styling*/
+.site-container{
+    padding-top: 60px;
+    display: flex;
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+.story-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(265px, 1fr));
+    gap: 2rem;
+}
+/* About You Styling*/
+.about-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.about-image img{
+    max-width:100%;
+    height:auto;
+    border-radius: 20px 20px 0 0;
+}
+.about-card{
+    background: rgb(95, 94, 94);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.about-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123. 0.2);
+    cursor: pointer;
+}
+.about-content{
+    padding: 2rem;
+}
+.about-content .card-category{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    display: block;
+}
+/* Background Styling*/
+.background-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.background-image img{
+    max-width:100%;
+    height:auto;
+    border-radius: 20px 20px 0 0;
+}
+.background-card{
+    background: rgb(95, 94, 94);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.background-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123. 0.2);
+    cursor: pointer;
+}
+.background-content .card-category{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    display: block;
+}
+.background-content .card-title{
+    margin: 2rem 0;
+    color: black;
+}
+/* Country Styling*/
+.country-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.country-image img{
+    max-width:100%;
+    height:auto;
+    border-radius: 20px 20px 0 0; 
+}
+.country-card{
+    background: rgb(95, 94, 94);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.country-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123. 0.2);
+    cursor: pointer;
+}
+.country-content .card-category{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    display: block;
+}
+/* ALU Styling*/
+.ALU-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.ALU-image img{
+    max-width:100%;
+    height:auto;
+    border-radius: 20px 20px 0 0; 
+}
+.ALU-card{
+    background: rgb(95, 94, 94);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.ALU-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123. 0.2);
+    cursor: pointer;
+}
+.ALU-content .card-category{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    display: block;
+}
+/* Mauritius Styling*/
+.mauritius-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.mauritius-image img{
+    max-width:100%;
+    height:auto;
+    border-radius: 20px 20px 0 0;
+}
+.mauritius-card{
+   background: rgb(95, 94, 94);
+    border-radius: 20px;
+    transition: 0.3s;  
+}
+.mauritius-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123. 0.2);
+    cursor: pointer;
+}
+/* Social Styling*/
+.social-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.social-image img{
+    max-width:100%;
+    height:auto;
+    border-radius: 20px 20px 0 0;
+}
+.social-card{
+    background: rgb(95, 94, 94);
+    border-radius: 20px;
+    transition: 0.3s;  
+}
+.social-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123. 0.2);
+    cursor: pointer;
+}
+.social-content .card-category{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(126, 124, 124);
+    font-weight: 600;
+    display: block;
+}
+/* Future Ideas Styling*/
+.ideas-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.ideas-image img{
+    max-width:100%;
+    height:auto;
+    border-radius: 20px 20px 0 0;
+}
+.ideas-card{
+    background:gray;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.ideas-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123. 0.2);
+    cursor: pointer;
+}
+.ideas-content.card-category{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(190, 178, 178);
+    font-weight: 600;
+    display: block;
+}
+/*Card Excerpt Styling*/
+.card-excerpt{
+    color: white;
+    padding: 5px 5px;
+}
+/*Title Styling*/
+.card-title{
+    color: white;
+    padding: 5px 5px;
+}
+a{
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+/*Comment section styling*/
+.comment{
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding-top: 600px;
+}
+.comment h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: white;
+}
+.comment input{
+    width:100%;
+    height:50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.comment textarea{
+    width:100%;
+    height: 200px;
+    padding: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.comment button{
+    height: 30px;
+    width: auto;
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+.comment button:hover{
+    background-color:rgb(0, 221, 255);
+    transition: 2s ease;
+}
